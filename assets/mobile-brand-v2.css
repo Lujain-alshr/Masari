@@ -1,0 +1,10 @@
+@media(max-width:760px){
+header .nav{position:relative}
+header .nav .site-brand{position:static;min-width:0}
+header .nav .site-brand .brand-copy{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:210px;max-width:calc(100% - 130px);align-items:center;text-align:center}
+header .site-brand .brand-title{font-size:35px;line-height:1.35;justify-content:center}
+header .site-brand .creator-credit{font-size:10px;line-height:1.7;white-space:nowrap;width:auto;max-width:none;margin-top:4px;text-align:center}
+header .nav .site-brand .brand-logo{position:absolute;right:0;top:50%;transform:translateY(-50%)}
+header .menubtn{position:absolute;left:0;top:50%;transform:translateY(-50%)}
+footer .foot strong{font-size:14px;line-height:1.9}
+}@media(max-width:360px){header .site-brand .brand-title{font-size:32px}header .site-brand .creator-credit{font-size:9px}footer .foot strong{font-size:13px}}
