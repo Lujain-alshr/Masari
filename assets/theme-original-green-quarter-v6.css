@@ -1,0 +1,7 @@
+/* Original green palette from the base stylesheet; retain navy and desktop alignment. */
+:root{--blue:#213f60}
+.btn,.pf-nav.primary{background:#213f60;border-color:#213f60;color:#fff}
+@media(min-width:761px){header .site-brand .brand-copy{transform:translateX(-12px)}}
+
+/* Very slight green tint increase on the home background only. */
+.hero{background:#f0f6f3}
