@@ -1,0 +1,21 @@
+/* Muted sage palette: medium depth, unchanged layout. */
+:root{--teal:#2f8b84;--blue:#213f60;--ink:#203c49;background:#e8eeea;color:#233e4a}
+body{background:#e8eeea}
+header,header nav{background:#f0f4f0;border-color:#cddbd4}
+.hero{background:#dce8e1}
+.journey{background:#dfe8e4;border-color:#cbdad2}
+footer{background:#dbe5de;border-color:#c5d5cc}
+.spec-card,.cert-card,.info-box,.jobs details,.softgrid details,.guide-accordions details,.pf-stage,.pf-ideas article,.pf-interface-grid figcaption{background:#f3f6f1;border-color:#ccdacf}
+.closing,.pf-banner,.pf-resources,.cv-template-section{background:#d4e3d9;border-color:#bfD2c5}
+.cert-summary,.pf-steps,.pf-workspace .pf-steps,.li-illustration,.catalog-note{background:#e0eae2;border-color:#c7d7ca}
+.pf-interface-grid figure>a{background:#d9e5dc}
+.pf-nav,.guide-tabs button,.filter-row input,.filter-row select{background:#f1f5ef}
+.guide-tabs button.selected{background:#d6e7dc;color:#286e66;border-color:#328f83}
+.btn,.pf-nav.primary{background:#213f60;border-color:#213f60;color:#fff}
+.pf-steps button.active{background:#cbded2;color:#286b61}
+.hero-copy h1 em,.label,.textlink,.footer-email,.site-brand .creator-credit,.hero-copy .hero-guide-title{color:#397f75}
+header nav .active{color:#307a70}
+header nav .active:after,.pf-progress i{background:#32877c}
+.pf-progress{background:#cddbd2}
+.foot>div+div,.copyright,.cv-outline-row{border-color:#c4d3ca}
+@media(max-width:760px){.pf-workspace .pf-steps{background:#dfe9e1;border-color:#c7d7ca}}
